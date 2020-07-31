@@ -12,25 +12,29 @@ import random
 import string
 
 fin = open('../mombo.txt')
+words = []
 
 def readFile(f):
     d = {}
     for line in f:
         for word in line.split():
-            d.setdefault(word.strip(string.punctuation+string.whitespace+string.digits).lower())
+            formatted_word = word.strip(string.punctuation+string.whitespace+string.digits).lower()
+            d.setdefault(formatted_word)
     return d
 
-def letterMarkAna(d, length=4):
+def letterMarkAna(d, length=6):
     marko = {}
     for word in d:
         marko.setdefault(word[:length], []).append(word[length:])
+        words.append(word[:length])
     return marko
 
-def randomGen(d, l, words=15):
+def randomGen(d, n=15):
     l = []
-    for i in range(words):
-        word = random.choice(list(d))
+    for i in range(n):
+        word = random.choice(words)
         l.append(word+random.choice(d[word]))
     return ' '.join(l)
 
-print(randomGen(letterMarkAna(readFile(fin)), readFile(fin)))
+print(randomGen(letterMarkAna(readFile(fin))))
+
