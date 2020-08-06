@@ -12,29 +12,30 @@ import random
 import string
 
 fin = open('../mombo.txt')
-words = []
 
 def readFile(f):
-    d = {}
+    l = [] 
     for line in f:
         for word in line.split():
             formatted_word = word.strip(string.punctuation+string.whitespace+string.digits).lower()
-            d.setdefault(formatted_word)
-    return d
+            l.append(formatted_word)
+    return l 
 
-def letterMarkAna(d, length=6):
-    marko = {}
-    for word in d:
-        marko.setdefault(word[:length], []).append(word[length:])
-        words.append(word[:length])
-    return marko
-
-def randomGen(d, n=15):
-    l = []
+def leroleroGenerator(d, l, n=15):
+    lerolero = []
     for i in range(n):
-        word = random.choice(words)
-        l.append(word+random.choice(d[word]))
-    return ' '.join(l)
+        word = random.choice(l)
+        lerolero.append(word+random.choice(d[word]))
+    return ' '.join(lerolero)
 
-print(randomGen(letterMarkAna(readFile(fin))))
+def markovAnalysis(l, length=6):
+    states_map = {}
+    prefixes_bag = []
+    for word in l:
+        states_map.setdefault(word[:length], []).append(word[length:])
+        prefixes_bag.append(word[:length])
+    res = leroleroGenerator(states_map, prefixes_bag)
+    return res
+
+print(markovAnalysis(readFile(fin)))
 
