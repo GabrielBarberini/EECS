@@ -21,10 +21,10 @@ def readFile(f):
             l.append(formatted_word)
     return l 
 
-def leroleroGenerator(d, l, n=15):
+def leroleroGenerator(d, n=15):
     lerolero = []
     for i in range(n):
-        word = random.choice(l)
+        word = random.choice(list(d))
         lerolero.append(word+random.choice(d[word]))
     return ' '.join(lerolero)
 
@@ -33,8 +33,7 @@ def markovAnalysis(l, length=6):
     prefixes_bag = []
     for word in l:
         states_map.setdefault(word[:length], []).append(word[length:])
-        prefixes_bag.append(word[:length])
-    res = leroleroGenerator(states_map, prefixes_bag)
+    res = leroleroGenerator(states_map)
     return res
 
 print(markovAnalysis(readFile(fin)))
