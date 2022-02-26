@@ -55,4 +55,4 @@ words = makeDict(fin)
 for anagram in bingo(words):
     print(anagram)
 
-#I guess I finally beat the book, my solution seems to run faster, yeeeey ;)
+#I guess Ive finally beaten the book, my solution seems to run faster, yeeeey ;)

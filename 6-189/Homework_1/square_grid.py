@@ -1,3 +1,5 @@
+'''draw a square grid with columns and width provided by the user using only string operators (proposed by me based on printing exercise 1.2)'''
+
 import math
 
 def grid(x,y):   
@@ -12,7 +14,7 @@ def grid(x,y):
 
     print((base+column) * n + base)
 
-largura = int(input("Largura do grid: "))
-coluna = int(input("Numero de colunas do grid: "))
+width = int(input("Grid's width: "))
+column = int(input("Grid's column number: "))
 
-grid(largura,coluna)
+grid(width,column)

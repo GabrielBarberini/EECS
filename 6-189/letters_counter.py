@@ -1,4 +1,5 @@
-'''Exercise 8.7 from page 75 of thinkpython2, I'm anger to find different solutions for this, please if you have one please share it with me gabrielbarberinirc@gmail.com'''
+'''Exercise 8.7 from page 75 of thinkpython2'''
+#solution by gabrielbarberini
 
 def find(string, letter, index):
     count = 0

@@ -1,3 +1,4 @@
+'''is word inside list?'''
 #caught from thinkpython2
 
 import bisect

@@ -2,7 +2,7 @@
 
 In the end of the book there is a section called Apendix B.Analysis of Algorithms, that will be further discussed in another Allen book, but I decided to already warm up the concept of Hashtables, so here it goes:
 
-Implement a new type of HashTable called BarbTable and a new kind of dictionary called Barbonary (yeahhhhh), where this new dictionary actually can be hashed as a key for the new HashTable.
+Implement a new type of HashTable called BarbTable and a new kind of dictionary called Barbonary (yeahhhhh), where this new dictionary can be pseudo-hashed (not sure if it is possible to hash for every case) as a key for the new HashTable.
 
 While:
     * Avoiding to use things not explained in the book
@@ -139,5 +139,3 @@ if __name__ == '__main__':
         del b[4]
         print(b)
         print(h.get(b))
-
-'''Conclusion: it is possible to do it, not surprisingly difficult I guess, of course Im not testing everything and there might be few bugs in my "implementation", also lots of edge cases that Im not treating, such as: if I make a Barbonary and then .copy() it to other variable, when I try to find any value by sending this variable as key, I got an error; but at least it manages the core and exposes the idea'''

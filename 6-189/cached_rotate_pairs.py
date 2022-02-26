@@ -1,6 +1,5 @@
 """Exercise 11.5. Two words are “rotate pairs” if you can rotate one of them and get the other (see rotate_word in Exercise 8.5).
 Write a program that reads a wordlist and finds all the rotate pairs. Solution: http:// thinkpython2. com/ code/ rotate_ pairs. py ."""
-#I'm not sure it is working properly, but it seems to be ;)
 
 fin = open("../words.txt")
 words = {}

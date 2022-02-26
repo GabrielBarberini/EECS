@@ -1,3 +1,4 @@
+'''Exercise 2.6 – The game of Nims/Stones'''
 
 #Set amount of Stones per row
 rows = [x+1 for x in range(int(input("\nRows for NIM?\n")))]

@@ -1,3 +1,5 @@
+'''Exercise OPT.1 – Palindromes!'''
+
 def first(word):
     return word[0]
 

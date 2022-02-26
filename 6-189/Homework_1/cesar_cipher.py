@@ -1,3 +1,5 @@
+'''implement a cesar cipher (ex: OPT 2)'''
+
 phrase = input("Say so...\n")
 shift = int(input("Key?\n"))
 encoded_phrase = ''
