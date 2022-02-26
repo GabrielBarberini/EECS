@@ -1,5 +1,5 @@
 # About this material
-Hi, my name is Gabriel Barberini, I currently live in Brazil and work as QA Engineer at SumUp and study Electrical and Eletronics engineering at Mackenzie (UPM). 
+Hi, my name is Gabriel Barberini, I currently live in Brazil working as QA Engineer at SumUp and studying Electrical and Eletronics engineering at Mackenzie (UPM). 
 
 Some of the motivations behind the creation and organization of this material are:
 * Most universities unfortunatelly are not good universities, so if you really want to learn you need to be autodidact
