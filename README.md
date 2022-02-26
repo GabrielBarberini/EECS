@@ -1,4 +1,30 @@
-# MIT_OCW - Electrical engineering and computer science
-- *[Full list](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)*
-- *6-189 - [A-gentle-introduction-to-programming-using-python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)*
-- *6-00sc - [Introduction-to-computer-science-and-programming-spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)* 
+# About this material
+Hi, my name is Gabriel Barberini, I currently live in Brazil and work as QA Engineer at SumUp and study Electrical and Eletronics engineering at Mackenzie (UPM). 
+
+Some of the motivations behind the creation and organization of this material are:
+* Most universities unfortunatelly are not good universities, so if you really want to learn you need to be autodidact
+* Most paid educational materials are market-prone, which means they have no compromisse with scientific nor academic rigour
+* High Quality Educational Material (HQEM) for autodictacts is hard to find so Im basing my picks in top universities
+* HQEM are not free so in my personal pick I selected only free material
+* HQEM sometimes do not come with solutions for exercises so I try to share materials that I resolved along with the solutions
+* HQEM picks sometimes were not exactly used by the person that is sharing it, so it makes harder to evaluate quality, thats why in my pick there will be only things what I went through.
+
+# My personal pick on MIT_OCW - Electrical engineering and computer science
+- [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
+- 6-189 - [A-gentle-introduction-to-programming-using-python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
+- 6-00sc - [Introduction-to-computer-science-and-programming-spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
+
+## Complementary material
+
+* [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
+
+### MIT official degree-charts
+* [Computer Science and Engineering (Course 6-3)](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)
+* [Electrical Engineering and Computer Science (Course 6-2)](http://catalog.mit.edu/degree-charts/electrical-engineering-computer-science-course-6-2/)
+
+### For improving CS/EE
+* [General high quality material on CS](https://github.com/ossu/computer-science)
+* [General high quality material on EE (to be found)]
+
+### For improving basic math
+* [Khan Academy](https://www.khanacademy.org/math/)
