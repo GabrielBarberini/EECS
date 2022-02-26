@@ -9,14 +9,16 @@ Some of the motivations behind the creation and organization of this material ar
 * HQEM sometimes do not come with solutions for exercises so I try to share materials that I resolved along with the solutions
 * HQEM picks sometimes were not exactly used by the person that is sharing it, so it makes harder to evaluate quality, thats why in my pick there will be only things what I went through.
 
-# My personal pick on MIT_OCW - Electrical engineering and computer science
+# My personal HQEM picks for Electrical Engineering and Computer Science
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 - 6-189 - [A-gentle-introduction-to-programming-using-python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction-to-computer-science-and-programming-spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
+- 
 
 ## Complementary material
 
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
+* [Project based learning](https://github.com/practical-tutorials/project-based-learning)
 
 ### MIT official degree-charts
 * [Computer Science and Engineering (Course 6-3)](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)
