@@ -39,7 +39,7 @@ def getResult(balance, interest):
 
         balance = round((balance * (1 + interest/12) - mmp), 2)
         
-        if balance < 0:
+        if balance <= 0:
             break
         else:
             month += 1 #after the break since the bill is payd in the next month
