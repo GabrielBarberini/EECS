@@ -1,5 +1,4 @@
 # Complementary reading 
 
-- [Introduction to computation and programming using python (2e)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
-
-> updated by Gabriel Barberini feb 2022
+- [Introduction to computation and programming using python (3e)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition)
+> updated by Gabriel Barberini mar 2022
