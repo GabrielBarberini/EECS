@@ -5,7 +5,8 @@ Wikipedia page here) to find the smallest monthly payment to the cent (no more m
 $10) such that we can pay off the debt within a year. Try it out with large inputs, and notice how
 fast it is. Produce the output in the same format as you did in problem 2.
 
-Obs: Im almost sure I did it the wrong way, but I spent much time on in trying to figure out how to implement a bisect search for this problem.... So I gave up ^.^. Please let me know if you solved it in a better way.
+
+Obs: Im not cutting things in the middle and adjusting because I wanted to try something else, but I encourage you to also change higher_mmp and lower_mmp according to intervals split/bisections to get a better performance"
 '''
 
 cardBalance = float(input("Enter the outstanding balance on your credit card: \n"))
@@ -25,8 +26,8 @@ def getResult(balance, interest):
             higher_mmp -= 0.01
             month = 1
 
-        balance_lower = (balance_lower * (1.0 + interest/12.0) - lower_mmp) #bisect left
-        balance_higher = (balance_higher * (1.0 + interest/12.0) - higher_mmp) #bisect right
+        balance_lower = (balance_lower * (1.0 + interest/12.0) - lower_mmp) #move left
+        balance_higher = (balance_higher * (1.0 + interest/12.0) - higher_mmp) #move right
 
         if balance_higher <= 0:
             balance = round(balance_higher, 2)
