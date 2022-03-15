@@ -5,8 +5,6 @@ Wikipedia page here) to find the smallest monthly payment to the cent (no more m
 $10) such that we can pay off the debt within a year. Try it out with large inputs, and notice how
 fast it is. Produce the output in the same format as you did in problem 2.
 
-Exaustive Enumeration Solution
-
 Not the elegant solution I was expecting, but... 
 '''
 
