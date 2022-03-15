@@ -59,4 +59,4 @@ showResult( getResult(cardBalance, cardInterest, lower_bound, upper_bound) )
 # Problem Set 1c
 # Name: Gabriel Barberini
 # Collaborators: None
-# Time Spent (min): 180
+# Time Spent (min): 90
