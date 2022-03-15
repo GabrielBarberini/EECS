@@ -5,51 +5,56 @@ Wikipedia page here) to find the smallest monthly payment to the cent (no more m
 $10) such that we can pay off the debt within a year. Try it out with large inputs, and notice how
 fast it is. Produce the output in the same format as you did in problem 2.
 
+Exaustive Enumeration Solution
 
-Obs: Im not cutting things in the middle and adjusting because I wanted to try something else, but I encourage you to also change higher_mmp and lower_mmp according to intervals split/bisections to get a better performance"
+Not the elegant solution I was expecting, but... 
 '''
 
 cardBalance = float(input("Enter the outstanding balance on your credit card: \n"))
 cardInterest = float(input("Enter the annual credit card interest rate as a decimal: \n"))
 
-def getResult(balance, interest):
+#Monthly payment lower bound = Balance / 12.0
+lower_bound = cardBalance / 12.0
+
+#Monthly payment upper bound = (Balance * (1 + (Annual interest rate / 12.0)) ** 12.0) / 12.0
+upper_bound = (cardBalance * (1 + (cardInterest / 12.0)) ** 12.0) / 12.0
+
+def showResult(result):
+    print("\nRESULT")
+    print("Monthly payment to pay off debt in 1 year: ", result[0])
+    print("Number of months needed: ", result[1])     
+    print("Balance: ", result[2])
+
+def getResult(balance, interest, minima, maxima):
     month = 1
-    lower_mmp = balance / 12.0 
-    higher_mmp = (balance * (1.0 + (interest / 12.0)) ** 12.0) / 12.0
-    balance_lower = balance_higher = balance
-    balanceTemp = balance
-    
+    balanceReset = balance
+    mid = (maxima - minima) / 2
+    freq = 0
+
     while True:
         if month == 13:
-            balance_lower = balance_higher = balanceTemp
-            lower_mmp += 0.01
-            higher_mmp -= 0.01
+            freq += 1
+            if abs(freq) > 1000: 
+                return [round(mid, 2), month-1, round(balance, 2)]
+            balance = balanceReset
             month = 1
+            minima = mid
+            mid += ( maxima - mid ) / 2.0 #go right
 
-        balance_lower = (balance_lower * (1.0 + interest/12.0) - lower_mmp) #move left
-        balance_higher = (balance_higher * (1.0 + interest/12.0) - higher_mmp) #move right
-
-        if balance_higher <= 0:
-            balance = round(balance_higher, 2)
-            mmp = round(higher_mmp, 2)
+        balance = (balance * (1 + interest/12.0) - mid)
         
-        if balance_lower <= 0:
-            balance = round(balance_lower, 2)
-            mmp = round(lower_mmp, 2)
-            break
-
-        elif lower_mmp == higher_mmp and month == 12:
-            break
-
+        if balance <= 0:
+            freq -= 1
+            if abs(freq) > 1000: 
+                return [round(mid, 2), month, round(balance, 2)]
+            balance = balanceReset
+            month = 1
+            maxima = mid
+            mid -= ( mid - minima ) / 2.0 #go left
         else:
-            month += 1 #after the breaks since the bill is payd in the next month
-
-    print("\nRESULT")
-    print("Monthly payment to pay off debt in 1 year: ", mmp)
-    print("Number of months needed: ", month)     
-    print("Balance: ", balance)
-
-getResult(cardBalance, cardInterest)
+            month += 1 #after the break since the bill is paid in the next month
+    
+showResult( getResult(cardBalance, cardInterest, lower_bound, upper_bound) )
 
 # Problem Set 1c
 # Name: Gabriel Barberini

@@ -42,7 +42,7 @@ def getResult(balance, interest):
         if balance <= 0:
             break
         else:
-            month += 1 #after the break since the bill is payd in the next month
+            month += 1 #after the break since the bill is paid in the next month
 
     print("\nRESULT")
     print("Monthly payment to pay off debt in 1 year: ", mmp)
