@@ -1,11 +1,9 @@
 # About this material
-Hi, my name is Gabriel Barberini, I currently live in Brazil working as QA Engineer at SumUp and studying Electrical and Eletronics engineering at Mackenzie (UPM). 
 
 Some of the motivations behind the creation and organization of this material are:
 * Most universities unfortunatelly are not good universities, so if you really want to learn you need to be an autodidact
 * Most paid educational materials are market-prone, which means they have no compromisse with scientific nor academic rigour
 * High Quality Educational Material (HQEM) for autodictacts is hard to find so Im basing my picks in top universities
-* HQEM are not free so in my personal pick I selected only free material
 * HQEM sometimes do not come with solutions for exercises so I try to share materials that I resolved along with the solutions
 * HQEM picks sometimes were not exactly used by the person that is sharing it, so it makes harder to evaluate quality, thats why in my pick there will be only things what I went through.
 
