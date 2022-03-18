@@ -9,9 +9,63 @@ Get two roman numbers, convert them to integers, perform the sum and then conver
 In the end of the file there is a table with roman examples from 1 to 100
 '''
 
+roman_to_int_tokens = {
+            "I": 1,
+            "V": 5,
+            "X": 10,
+            "L": 50,
+            "C": 100
+        }
 
+int_to_roman_tokens = {
+            1: "I",
+            5: "V",
+            10: "X",
+            50: "L",
+            100: "C"
+        }
 
+def roman_to_int(rom, tokens):
+    '''Assumes tokens.keys are chars and tokens.values are ints'''
+    temp = 0
 
+    for i in range(len(rom)):
+        if i-1 >= 0 and tokens.get(rom[i]) > tokens.get(rom[i-1]):
+        #if its not the first roman number and the next one is greater than the current, sum current minus the previous one
+            temp += tokens.get(rom[i]) - 2*tokens.get(rom[i-1])
+        else:
+            temp += tokens.get(rom[i])
+    return temp
+
+def sumUp(x, y):
+    return x + y
+
+def int_to_roman(num, tokens):
+    ''' Assumes tokens.keys are int and tokens.values are char'''
+    keys = list(tokens.keys())
+    keys.sort()
+    values = []
+    
+    for k in keys:
+        values.append(tokens.get(k))
+
+    i = 1 
+    roman = "" 
+
+    while num > 0:
+        if num // keys[-i] > 0 and num // keys[-i] <= 3:
+            roman += values[-i] * (num // keys[-i])
+            num -= keys[-i] * (num // keys[-i])
+
+        elif num // keys[-i] > 3:
+            roman += values[-i] + values[1-i]
+            num -= roman_to_int(values[-i]+values[1-i], roman_to_int_tokens)
+        i += 1
+
+    return roman
+
+print(int_to_roman(sumUp(roman_to_int("XVII", roman_to_int_tokens), roman_to_int("XLII", roman_to_int_tokens)), tokens=int_to_roman_tokens))
+        
 '''
 1	I	1
 2	II	1+1
