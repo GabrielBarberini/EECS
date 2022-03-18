@@ -25,6 +25,9 @@ int_to_roman_tokens = {
             100: "C"
         }
 
+def sumUp(x, y):
+    return x + y
+
 def roman_to_int(rom, tokens):
     '''Assumes tokens.keys are chars and tokens.values are ints'''
     temp = 0
@@ -36,9 +39,6 @@ def roman_to_int(rom, tokens):
         else:
             temp += tokens.get(rom[i])
     return temp
-
-def sumUp(x, y):
-    return x + y
 
 def int_to_roman(num, tokens):
     ''' Assumes tokens.keys are int and tokens.values are char'''
