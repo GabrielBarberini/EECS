@@ -59,12 +59,12 @@ def int_to_roman(num, tokens):
 
         elif num // keys[-i] > 3:
             roman += values[-i] + values[1-i]
-            num -= roman_to_int(values[-i]+values[1-i], roman_to_int_tokens)
+            num -= keys[-i]+keys[1-i]
         i += 1
 
     return roman
 
-print(int_to_roman(sumUp(roman_to_int("XVII", roman_to_int_tokens), roman_to_int("XLII", roman_to_int_tokens)), tokens=int_to_roman_tokens))
+print(int_to_roman(sumUp(roman_to_int("VIII", roman_to_int_tokens), roman_to_int("XIV", roman_to_int_tokens)), tokens=int_to_roman_tokens))
         
 '''
 1	I	1
