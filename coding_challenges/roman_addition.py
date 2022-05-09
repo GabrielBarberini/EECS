@@ -17,13 +17,7 @@ roman_to_int_tokens = {
             "C": 100
         }
 
-int_to_roman_tokens = {
-            1: "I",
-            5: "V",
-            10: "X",
-            50: "L",
-            100: "C"
-        }
+int_to_roman_tokens = { i: r for r, i in roman_to_int_tokens.items() }
 
 def sumUp(x, y):
     return x + y
