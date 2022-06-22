@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "9a86528ff73a462f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a1baf144d7ffa43",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Infra/Articles/Kubernetes.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "049bf907839b9de4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9300be6d5460c975",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29c22a969207bc42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8f31607af87d744",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "410e196abe3f1175",
+    "type": "split",
+    "children": [
+      {
+        "id": "a899d3dcc92ceb04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4d09c6584747403",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Infra/Articles/Kubernetes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6a1baf144d7ffa43",
+  "lastOpenFiles": [
+    "Infra/Articles/Kubernetes.md",
+    "Infra/Articles/Docker.md",
+    "Untitled 1.md"
+  ]
+}
