@@ -27,9 +27,9 @@ for node in short_node_path:
 for edge in edges:
     sample_graph.add_edge(edge)
 
-print("DFS")
+print("DFS (recursive)")
 print("Shortest path by DFS is: " + print_path(shortest_path(sample_graph, long_node_path[0], long_node_path[4], True)))
 
-print("\nBFS")
+print("\nBFS (iterative)")
 print("Shortest path by BFS is: " + print_path(BFS(sample_graph, long_node_path[0], long_node_path[4], True)))
 
