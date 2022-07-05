@@ -23,6 +23,3 @@ def DFS(graph, start, end, path, shortest, to_print = False):
 
 def shortest_path(graph, start, end, to_print = False):
     return DFS(graph, start, end, [], None, to_print)
-
-
-
