@@ -1,4 +1,4 @@
-''' So I fixed it to be compliant with a proper implementation of Sel sort'''
+''' So I fixed it to be compliant with a proper implementation of Sel sort, swaping only for every iteration in the outter loop'''
 
 def optm_sel_sort(L):
     suffix_start = 0

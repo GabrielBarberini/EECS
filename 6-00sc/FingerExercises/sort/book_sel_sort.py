@@ -1,4 +1,4 @@
-''' Selection sort presented in John Guttag book swaps for every iteration '''
+''' Selection sort presented in John Guttag book swaps for every iteration of the inner loop'''
 
 def sel_sort(L):
     suffix_start = 0
