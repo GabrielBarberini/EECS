@@ -45,4 +45,4 @@ def tabu_make_change(coin_vals, change):
         i += 1
 
     return min(possibilities)
-    # Theta(f(a,b)) = a * log(a) ?
+    # Theta(f(a,b)) = log(a) * a

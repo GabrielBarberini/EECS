@@ -4,41 +4,48 @@ def memo_make_change(coin_vals, change):
        Coins may be used more than once. For example, make_change([1, 5, 8], 11) should return 3.
 
     """
-    #solve trivialities
-    if change == 0 or change == 1 or len(coin_vals) == 1:
-        return change #change in coin_vals or only 1 in coin_vals
-
-    coin_vals.sort(reverse=True)
-
-    for number in coin_vals:
-        if number > change:
-            coin_vals.remove(number)
-
-    if change in coin_vals:
-        return 1
-
-    if change % coin_vals[0] == 0:
-        return change/coin_vals[0]
-
-    #begin
-    step = 1 
-    possibilities = set() 
-
     try:
         return cached_changes(tuple(coin_vals), change)
 
     except KeyError:
-        while step <= change:
-            for i in range(change):
-                if (change - i)/step in coin_vals:
-                    possibilities.add(memo_make_change(coin_vals, i) + step) #remainder changes + (change-i)
-            step += 1
+        #solve trivialities 
+        if change == 0 or change == 1 or len(coin_vals) == 1:
+            return (1, )*change #change in coin_vals or only 1 in coin_vals
 
-        result = min(possibilities)
-        cached_changes(tuple(coin_vals), change, result)
+        coin_vals.sort(reverse=True)
 
-        return result
-        # Theta( f(a,b) ) = b^2 * a * log(a)
+        if change in coin_vals:
+            return (change, )
+
+        if change % coin_vals[0] == 0:
+            return (coin_vals[0], ) * (change//coin_vals[0])
+
+        #begin
+        changes = () 
+        diff = change - coin_vals[0]
+        if diff == 0:
+            return (coin_vals[0], )
+
+        elif diff > 0:
+            changes += (coin_vals[0],) + memo_make_change(coin_vals, diff)
+
+        else:
+            # current_great: [1,3,4,5] 7 -> (5,1,1)
+            # next_great: [1,3,4] 7 -> (3,4)
+
+            next_great = memo_make_change(coin_vals[1:], change+coin_vals[0])
+            current_great = memo_make_change(coin_vals[1:], change)
+
+            if len(next_great) < len(current_great)+1:
+                changes += ('next_great',) + next_great 
+            else:
+                changes += current_great 
+
+        if 'next_great' in changes:
+            changes = changes[2:]
+
+        cached_changes(tuple(coin_vals), change, changes)
+        return changes
 
 cache = dict()
 def cached_changes(coins, change, result=None):
