@@ -41,8 +41,9 @@ def memo_make_change(coin_vals, change):
             else:
                 changes += current_great 
 
-        if 'next_great' in changes:
-            changes = changes[2:]
+        if 'next_great' in changes and changes.index('next_great') != 0:
+            i = changes.index('next_great')+1
+            changes = changes[i:]
 
         cached_changes(tuple(coin_vals), change, changes)
         return changes
