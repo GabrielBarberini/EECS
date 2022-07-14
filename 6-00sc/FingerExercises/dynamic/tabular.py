@@ -1,4 +1,4 @@
-def tabish_make_change(coin_vals, change, sor=False):
+def make_change(coin_vals, change, sor=False):
     """coin_vals is a list of positive ints and coin_vals[0] = 1, change is a positive int.
        Return the minimum number of coins needed to have a set of coins the values of which sum to change. Coins may be used more than once. For example, make_change([1, 5, 8], 11) should return 3.
 
@@ -20,14 +20,14 @@ def tabish_make_change(coin_vals, change, sor=False):
     changes = () 
     diff = change - coin_vals[0]
     if diff > 0:
-        changes += (coin_vals[0],) + tabish_make_change(coin_vals, diff, True)
+        changes += (coin_vals[0],) + make_change(coin_vals, diff, True)
 
     else:
         # current_great: [1,3,4,5] 7 -> (5,1,1)
         # next_great: [1,3,4] 7 -> (3,4)
 
-        next_great = tabish_make_change(coin_vals[1:], change+coin_vals[0], True)
-        current_great = tabish_make_change(coin_vals[1:], change, True)
+        next_great = make_change(coin_vals[1:], change+coin_vals[0], True)
+        current_great = make_change(coin_vals[1:], change, True)
 
         if len(next_great) < len(current_great)+1:
             changes += ('next_great',) + next_great 
@@ -38,5 +38,5 @@ def tabish_make_change(coin_vals, change, sor=False):
         i = changes.index('next_great')+1
         changes = changes[i:]
 
-    #Theta(f(a,b)) = a
+    #Theta(f(a,b)) = a ?
     return changes

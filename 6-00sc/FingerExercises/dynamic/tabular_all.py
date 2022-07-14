@@ -8,10 +8,6 @@ def tabuall_make_change(coin_vals, change):
 
     coin_vals.sort(reverse=True)
 
-    for number in coin_vals:
-        if number > change:
-            coin_vals.remove(number)
-
     if change in coin_vals:
         return 1
 
