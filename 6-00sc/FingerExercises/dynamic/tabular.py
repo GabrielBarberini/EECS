@@ -1,42 +1,54 @@
-def make_change(coin_vals, change, sor=False):
+def make_change(coin_vals, change):
     """coin_vals is a list of positive ints and coin_vals[0] = 1, change is a positive int.
        Return the minimum number of coins needed to have a set of coins the values of which sum to change. Coins may be used more than once. For example, make_change([1, 5, 8], 11) should return 3.
 
     """
-    #solve trivialities 
+    #solve trivialities
     if change == 0 or change == 1 or len(coin_vals) == 1:
-        return (1, )*change #change in coin_vals or only 1 in coin_vals
+        return [1, ]*change #change in coin_vals or only 1 in coin_vals
 
-    if not sor:
-        coin_vals.sort(reverse=True)
+    coin_vals.sort(reverse=True)
 
     if change in coin_vals:
-        return (change, )
+        return [change]
 
     if change % coin_vals[0] == 0:
-        return (coin_vals[0], ) * (change//coin_vals[0])
+        return [coin_vals[0], ] * (change//coin_vals[0])
 
     #begin
-    changes = () 
-    diff = change - coin_vals[0]
-    if diff > 0:
-        changes += (coin_vals[0],) + make_change(coin_vals, diff, True)
+    result = [1,]*change
+    results = [250]
+    coin_vals.sort()
 
-    else:
-        # current_great: [1,3,4,5] 7 -> (5,1,1)
-        # next_great: [1,3,4] 7 -> (3,4)
+    left_over = 0
+    for coin in range(1, len(coin_vals)):
+        current_coin = coin_vals[coin]
+        previous_coin = coin_vals[coin-1]
 
-        next_great = make_change(coin_vals[1:], change+coin_vals[0], True)
-        current_great = make_change(coin_vals[1:], change, True)
+        previous_coin_fit_current = (change // current_coin) * current_coin 
+        removed = 0
+        added = 0
 
-        if len(next_great) < len(current_great)+1:
-            changes += ('next_great',) + next_great 
-        else:
-            changes += current_great 
+        while previous_coin <= (previous_coin_fit_current - removed):
+            result.remove(previous_coin)
+            removed += previous_coin
 
-    if 'next_great' in changes and changes.index('next_great') != 0:
-        i = changes.index('next_great')+1
-        changes = changes[i:]
+        while added < previous_coin_fit_current: 
+            result.append(current_coin)
+            added += current_coin
 
-    #Theta(f(a,b)) = a ?
-    return changes
+        left_over += (previous_coin_fit_current - removed)
+
+        if left_over > 0:
+            left_over -= result.pop(0)
+        elif coin == len(coin_vals)-1 and\
+        left_over < 0 and\
+        -left_over in coin_vals:
+            result.insert(0, -left_over)
+
+        results.append(result)
+        if len(result) == 2:
+            break
+
+    return results[-1]
+    #Theta(f(a,b)) = a*log(b)
