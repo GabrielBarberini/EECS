@@ -17,11 +17,12 @@ def make_change(coin_vals, change):
 
     #begin
     result = [1,]*change
-    results = [250]
+    results = [change]
     coin_vals.sort()
 
     left_over = 0
-    for coin in range(1, len(coin_vals)):
+    coin = 1
+    while coin < len(coin_vals):
         current_coin = coin_vals[coin]
         previous_coin = coin_vals[coin-1]
 
@@ -41,12 +42,26 @@ def make_change(coin_vals, change):
 
         if left_over > 0:
             left_over -= result.pop(0)
-        elif coin == len(coin_vals)-1 and\
+        if coin == len(coin_vals)-1 and\
         left_over < 0 and\
         -left_over in coin_vals:
             result.insert(0, -left_over)
+        elif coin == len(coin_vals)-1 and\
+        left_over < 0 and\
+        -left_over not in coin_vals:
+            '''-2 -5 = -7; -7 + 4 = -3; -3 + 3 = 0'''
+            left_over -= result.pop()
+            remainings = coin_vals[:len(coin_vals)-1]
+            remainings.sort(reverse=True)
+            for option in remainings:
+                if left_over < 0:
+                    left_over += option
+                    result.append(option)
+                else:
+                    break
 
         results.append(result)
+        coin+=1
         if len(result) == 2:
             break
 

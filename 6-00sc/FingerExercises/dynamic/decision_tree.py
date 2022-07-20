@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10000)
+
 def tree_make_change(coin_vals, change, sor=False):
     """coin_vals is a list of positive ints and coin_vals[0] = 1, change is a positive int.
        Return the minimum number of coins needed to have a set of coins the values of which sum to change. Coins may be used more than once. For example, make_change([1, 5, 8], 11) should return 3.
@@ -38,5 +41,5 @@ def tree_make_change(coin_vals, change, sor=False):
         i = changes.index('next_great')+1
         changes = changes[i:]
 
-    #Theta(f(a,b)) = a ?
+    #Theta(f(a,b)) = a*log(a)*log(b)
     return changes
