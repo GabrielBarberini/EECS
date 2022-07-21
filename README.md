@@ -1,11 +1,9 @@
 # About this material
 
 Some of the motivations behind the creation and organization of this material are:
-* Most universities unfortunatelly are not good universities, so if you really want to learn you need to be an autodidact
+* Most universities unfortunatelly are not good universities, if you agree to this and think that if you really want to learn you need to be an autodidact then this material might suit you well.
 * Most paid educational materials are market-prone, which means they have no compromisse with scientific nor academic rigour
-* High Quality Educational Material (HQEM) for autodictacts is hard to find so Im basing my picks in top universities
-* HQEM sometimes do not come with solutions for exercises so I try to share materials that I resolved along with the solutions
-* HQEM picks sometimes were not exactly used by the person that is sharing it, so it makes harder to evaluate quality, thats why in my pick there will be only things what I went through.
+* High Quality Educational Material (HQEM) for autodictacts is sometimes hard to find so Im basing my picks in top universities, books and courses that I personally went through and think its worth sharing.
 
 # My personal HQEM picks for Electrical Engineering and Computer Science
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
@@ -34,3 +32,9 @@ Some of the motivations behind the creation and organization of this material ar
 ### For improving math
 * [Khan Academy](https://www.khanacademy.org/math/)
 * [Wolfram-u](https://www.wolfram.com/wolfram-u/catalog/mathematics/)
+
+## For improving programming
+* [SoloLearn (beginner level)](https://www.sololearn.com/learning)
+* [CodingGame (good for practicing while having some fun)](https://www.codingame.com/start)
+* [FreeCodeCamp (intermediary level)](https://www.freecodecamp.org/)
+* [Project Based Learning (advanced level)](https://github.com/practical-tutorials/project-based-learning)
