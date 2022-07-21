@@ -33,7 +33,7 @@ Some of the motivations behind the creation and organization of this material ar
 * [Khan Academy](https://www.khanacademy.org/math/)
 * [Wolfram-u](https://www.wolfram.com/wolfram-u/catalog/mathematics/)
 
-## For improving programming
+### For improving programming
 * [SoloLearn (beginner level)](https://www.sololearn.com/learning)
 * [CodingGame (good for practicing while having some fun)](https://www.codingame.com/start)
 * [FreeCodeCamp (intermediary level)](https://www.freecodecamp.org/)
