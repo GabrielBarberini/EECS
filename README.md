@@ -9,12 +9,12 @@ Some of the motivations behind the creation and organization of this material ar
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction to computer science and programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
 - 6-041sc - [Probabilistic systems analysis and applied probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/syllabus/)
+- 6-02 - [introduction to eecs ii digital communication systems](https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
 ## Complementary material 
 
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
-* [Project based learning](https://github.com/practical-tutorials/project-based-learning)
 
 ### Mini-courses 
 
