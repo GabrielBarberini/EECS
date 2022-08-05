@@ -91,7 +91,7 @@ print("Result by SEM: Mean = ", sample_2_mean, "(sample mean) +/- ", 1.96*sem_2)
 print()
 print("Results diff: \nExpected result by SEM <= ", sem_2*1.96, "\nResult by SEM = ", abs(x_2_mean-sample_2_mean), "\nExpected result by SE <= ", 1.96*np.std(x_2_means), "\nResult by SE = ", abs(x_2_mean-x_2_means_mean))
 
-#Obs: SEM is calculated over the elements of a single sample and this number approaches the SD of the mean of means if the sample is large enough because the SD == SEM when the population is normally distributed (in this case our population is the means by which by TLC is expected to be normally distributed)
+#Obs: SEM is calculated over the elements of a single sample and this number approaches the SD of the mean of means if the sample is large enough because the SD == SEM when the population is normally distributed (in this case our population is the means in which by TLC is expected to be normally distributed)
 
 #Experiment 3:
 ''' Check if the histogram of the population (sum of all elements in each sample) is uniform '''
@@ -133,6 +133,6 @@ print("Result by SEM: Mean = ", sample_3_mean, "(sample mean) +/- ", 1.96*sem_3)
 print()
 print("Results diff: \nExpected result by SEM <= ", sem_3*1.96, "\nResult by SEM = ", abs(x_3_mean-sample_3_mean), "\nExpected result by SE <= ", 1.96*np.std(x_3_means), "\nResult by SE = ", abs(x_3_mean-x_3_means_mean))
 
-#Obs: SEM is calculated over the elements of a single sample and this number approaches the SD of the mean of means if the sample is large enough because the SD == SEM when the population is normally distributed (in this case our population is the means by which by TLC is expected to be normally distributed)
+#Obs: SEM is calculated over the elements of a single sample and this number approaches the SD of the mean of means if the sample is large enough because the SD == SEM when the population is normally distributed (in this case our population is the means in which by TLC is expected to be normally distributed)
 
 plt.show()
