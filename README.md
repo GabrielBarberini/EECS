@@ -1,6 +1,6 @@
 # About this material
 
-## My personal HQEM picks for Electrical Engineering and Computer Science
+## Personal picks for Electrical Engineering and Computer Science disciplines at MIT OCW
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction to computer science and programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
 - 6-041sc - [Probabilistic systems analysis and applied probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/syllabus/)
@@ -25,11 +25,11 @@
 * [General high quality material on EE (to be found)]
 
 ### For improving math
-* [Khan Academy](https://www.khanacademy.org/math/)
-* [Wolfram-u](https://www.wolfram.com/wolfram-u/catalog/mathematics/)
+* [Khan Academy (beginner)](https://www.khanacademy.org/math/)
+* [Wolfram-u (intermediary)](https://www.wolfram.com/wolfram-u/catalog/mathematics/)
 
 ### For improving programming
-* [SoloLearn (beginner level)](https://www.sololearn.com/learning)
-* [CodingGame (good for practicing while having some fun)](https://www.codingame.com/start)
-* [FreeCodeCamp (intermediary level)](https://www.freecodecamp.org/)
-* [Project Based Learning (advanced level)](https://github.com/practical-tutorials/project-based-learning)
+* [SoloLearn (beginner)](https://www.sololearn.com/learning)
+* [CodingGame (intermediary)](https://www.codingame.com/start)
+* [FreeCodeCamp (intermediary)](https://www.freecodecamp.org/)
+* [Project Based Learning (advanced)](https://github.com/practical-tutorials/project-based-learning)
