@@ -1,4 +1,4 @@
-# Grad and undergrad high quality material on Electrical Engineering and Computer Science
+# Electrical Engineering and Computer Science
 
 ## MIT OCW
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
