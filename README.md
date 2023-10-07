@@ -1,6 +1,6 @@
-# About this material
+# Grad and undergrad high quality material on Electrical Engineering and Computer Science
 
-## Personal picks for Electrical Engineering and Computer Science disciplines at MIT OCW
+## MIT OCW
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction to computer science and programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
 - 6-041sc - [Probabilistic systems analysis and applied probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/syllabus/)
