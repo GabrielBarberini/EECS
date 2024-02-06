@@ -33,13 +33,15 @@
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [Systematic program design](https://www.youtube.com/@systematicprogramdesign7962)
 
-### Nice youtube channels
-* [BranchEducation](https://www.youtube.com/@BranchEducation) # My favorite
-* [3Blue1Brown](https://www.youtube.com/@3blue1brown)
-* [CodeAesthethic](https://www.youtube.com/@CodeAesthetic)
-* [kurzgesagt](https://www.youtube.com/@kurzgesagt)
+### Youtube channels
+#### Technology
 * [fireship](https://www.youtube.com/@Fireship)
+* [CodeAesthethic](https://www.youtube.com/@CodeAesthetic)
+#### Science & Engineering
+* [kurzgesagt](https://www.youtube.com/@kurzgesagt)
+* [BranchEducation](https://www.youtube.com/@BranchEducation) # My favorite
 * [Veritasium](https://www.youtube.com/@veritasium)
+* [3Blue1Brown](https://www.youtube.com/@3blue1brown)
 * [The Royal Institution](https://www.youtube.com/@TheRoyalInstitution)
 * [The Audio Phool](https://www.youtube.com/@TheAudioPhool) # Good start for some electrical engineering DIY
 * [Ben Eater](https://www.youtube.com/@BenEater) # Good end for some electrical engineering DIY 
