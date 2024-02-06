@@ -14,7 +14,7 @@
 * [Open Source Society University](https://github.com/ossu/computer-science)
 
 ## Useful resources
-- Check notes for books, articles and personal annotations
+- Check `/notes` for books, articles and personal annotations
 
 ### Practicing sciences
 * [Khan Academy (beginner)](https://www.khanacademy.org/math/)
@@ -41,5 +41,5 @@
 * [fireship](https://www.youtube.com/@Fireship)
 * [Veritasium](https://www.youtube.com/@veritasium)
 * [The Royal Institution](https://www.youtube.com/@TheRoyalInstitution)
-* [The Audio Phool](https://www.youtube.com/@TheAudioPhool) # Good start for some electrical engineering DYI
-* [Ben Eater](https://www.youtube.com/@BenEater) # Good end for some electrical engineering DYI 
+* [The Audio Phool](https://www.youtube.com/@TheAudioPhool) # Good start for some electrical engineering DIY
+* [Ben Eater](https://www.youtube.com/@BenEater) # Good end for some electrical engineering DIY 
