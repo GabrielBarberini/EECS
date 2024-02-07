@@ -3,7 +3,7 @@
 - [The Feynman Lectures on Physics](feynmanlectures.caltech.edu)
 - Chemistry and Chemical Reactivity John C Kotz
 - Calculus by Michael Spivak
-- Introduction to Probability Dimitri P. Bertsekas and John N. Tsitsiklis 2nd edition
+- An introduction to probability theory and its applications, William Feller
 - Linear algebra and learning from data G.Strang
 
 # Computer Science
