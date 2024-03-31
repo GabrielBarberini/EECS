@@ -1,11 +1,19 @@
 # Electrical Engineering and Computer Science
 
-## Courses content 
+## Courses
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction to computer science and programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
-- 6-041sc - [Probabilistic systems analysis and applied probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/syllabus/)
 - 6-02 - [Introduction to eecs ii digital communication systems](https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 - 6-005 - [Software Construction](https://ocw.mit.edu/ans7870/6/6.005/s16/)
+- CS107 - [Programming Paradigms](https://see.stanford.edu/Course/CS107)
+- 6-006 - [Introduction to algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+- 6-041 - [Probabilistic systems analysis and applied probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/)
+- 6-034 - [Artificial intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+- 6-042j - [Mathematics for computer science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)
+- 6-046j - [Design and analysis of algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
+- 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-internet-applications-fall-2003/)
+- 6-172 - [Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/)
+- 6-189 - [Multicore Programming Primer](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
 ### Reference degree-charts
