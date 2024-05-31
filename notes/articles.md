@@ -5,4 +5,4 @@
 - [The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
 
 # Science & Engineering
-- 
+- [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
