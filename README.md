@@ -4,6 +4,7 @@
 - 6-189 - [A gentle introduction to programming using python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
 - 6-00sc - [Introduction to computer science and programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
 - 18-404j - [Theory of computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)
+- 6-004 - [Computation structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
 - 6-02 - [Introduction to eecs ii digital communication systems](https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 - 6-005 - [Software Construction](https://ocw.mit.edu/ans7870/6/6.005/s16/)
 - CS107 - [Programming Paradigms](https://see.stanford.edu/Course/CS107)
