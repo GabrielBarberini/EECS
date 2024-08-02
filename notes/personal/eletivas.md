@@ -40,7 +40,6 @@
 ### Terça e Quinta
 - [(MAC0417) Visão e Processamento de Imagens](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0417)
 - [(MAC0323) Algoritmos e Estruturas de Dados II](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0323) 
-- [(MAC0413) Tópicos Avançados de Programação Orientada a Objetos](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0413)
 
 ### Segunda e Quarta
 - [(MAE0515) Introdução à Teoria dos Jogos](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAE0515)
@@ -49,6 +48,7 @@
 
 ### Quarta e Sexta
 - [(MAC0219) Programação Concorrente e Paralela](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0219)
+- [(MAP2321) Técnicas em Teoria de Controle](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAP2321)
 
 ## POLI
 ### Sexta feira
@@ -65,3 +65,5 @@
 - [(PSI3441) Arquitetura de Sistemas Embarcados](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PSI3441)
 - [(PCS3746) Sistemas Operacionais](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PCS3746&verdis=2)
 
+### Quarta
+- [(PCS3578G) Sistemas Tolerantes a Falhas](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PCS3578G)
