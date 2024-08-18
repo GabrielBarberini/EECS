@@ -1,10 +1,3 @@
-# Mackenzie
-
-- WEB MOBILE
-- JOGOS DIGITAIS
-- LINGUAGENS FORMAIS E AUTOMATOS
-- PARADIGMAS DE LINGUAGENS DE PROGRAMACAO
-
 # UFRGS
 
 ## Terça e Quinta
@@ -12,11 +5,9 @@
 - (INF01147) COMPILADORES
 - (INF05515) COMPLEXIDADE DE ALGORITMOS
 - (INF01213) FOTOGRAFIA COMPUTACIONAL
-- (INF01209) FUNDAMENTOS DE TOLERÂNCIA A FALHAS
 - (INF01151) SISTEMAS OPERACIONAIS II N
 - (MAT01375) MATEMÁTICA DISCRETA B
 - (INF05508) LÓGICA PARA COMPUTAÇÃO
-- (INF01058) CIRCUITOS DIGITAIS
 - (INF01146) AVALIAÇÃO DE DESEMPENHO
 
 ## Segunda e Quarta
@@ -66,4 +57,4 @@
 - [(PCS3746) Sistemas Operacionais](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PCS3746&verdis=2)
 
 ### Quarta
-- [(PCS3578G) Sistemas Tolerantes a Falhas](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PCS3578G)
+- [(PCS3578G) Sistemas Tolerantes a Falhas](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=PCS3578G) (x)
