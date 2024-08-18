@@ -3,6 +3,7 @@
 - [NTP protocol](https://sookocheff.com/post/time/how-does-ntp-work/)
 - [The Docker Handbook](https://www.freecodecamp.org/news/the-docker-handbook/)
 - [The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
+- [Unicode and character sets basics](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
