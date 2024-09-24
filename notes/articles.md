@@ -4,6 +4,12 @@
 - [The Docker Handbook](https://www.freecodecamp.org/news/the-docker-handbook/)
 - [The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
 - [Unicode and character sets basics](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+- [Journey to the stack, part 1](https://manybutfinite.com/post/journey-to-the-stack/)
+
+## Linux
+- [Anatomy of the Linux kernel](https://developer.ibm.com/articles/l-linux-kernel)
+- [Anatomy of Linux process management](https://developer.ibm.com/tutorials/l-linux-process-management)
+- [Anatomy of a program in memory](https://manybutfinite.com/post/anatomy-of-a-program-in-memory)
 
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
