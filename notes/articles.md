@@ -10,6 +10,7 @@
 - [Anatomy of the Linux kernel](https://developer.ibm.com/articles/l-linux-kernel)
 - [Anatomy of Linux process management](https://developer.ibm.com/tutorials/l-linux-process-management)
 - [Anatomy of a program in memory](https://manybutfinite.com/post/anatomy-of-a-program-in-memory)
+- [Anatomy of the linux filesystem](https://developer.ibm.com/tutorials/l-linux-filesystem)
 
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
