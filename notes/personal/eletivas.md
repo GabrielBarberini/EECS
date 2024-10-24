@@ -6,8 +6,6 @@
 - (INF05515) COMPLEXIDADE DE ALGORITMOS
 - (INF01213) FOTOGRAFIA COMPUTACIONAL
 - (INF01151) SISTEMAS OPERACIONAIS II N
-- (MAT01375) MATEMÁTICA DISCRETA B
-- (INF05508) LÓGICA PARA COMPUTAÇÃO
 - (INF01146) AVALIAÇÃO DE DESEMPENHO
 
 ## Segunda e Quarta
@@ -16,8 +14,6 @@
 - (INF01008) PROGRAMAÇÃO DISTRIBUÍDA E PARALELA
 - (INF01154) REDES DE COMPUTADORES N
 - (INF01142) SISTEMAS OPERACIONAIS I N
-- (INF05501) TEORIA DA COMPUTAÇÃO N
-- (INF05512) TEORIA DOS GRAFOS E ANÁLISE COMBINATÓRIA
 - (INF01045) SEGURANÇA EM SISTEMAS DE COMPUTAÇÃO
 - (INF01048) INTELIGÊNCIA ARTIFICIAL
 - (INF01017) APRENDIZADO DE MÁQUINA
@@ -30,7 +26,6 @@
 ## IME
 ### Terça e Quinta
 - [(MAC0417) Visão e Processamento de Imagens](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0417)
-- [(MAC0323) Algoritmos e Estruturas de Dados II](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAC0323) 
 
 ### Segunda e Quarta
 - [(MAE0515) Introdução à Teoria dos Jogos](https://uspdigital.usp.br/jupiterweb/obterTurma?sgldis=MAE0515)
