@@ -43,6 +43,12 @@
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [Systematic program design](https://www.youtube.com/@systematicprogramdesign7962)
 
+### Blogs
+* [Cryptography](https://asecuritysite.com/)
+* [Security](https://www.schneier.com/)
+* [Science](https://ciechanow.ski/archives/)
+* [Programming](https://alexanderell.is/)
+
 ### Youtube channels
 #### Technology
 * [fireship](https://www.youtube.com/@Fireship)
