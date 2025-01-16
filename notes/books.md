@@ -1,10 +1,10 @@
 # Basic Sciences
+- [Nayve Set Theory](https://www.amazon.com/Naive-Theory-Undergraduate-Texts-Mathematics/dp/0387900926)
 - Sears and Zemansky's University Physics: With Modern Physics 
 - [The Feynman Lectures on Physics](feynmanlectures.caltech.edu)
 - Chemistry and Chemical Reactivity John C Kotz
 - Calculus by Michael Spivak
 - An introduction to probability theory and its applications, William Feller
-- Linear algebra and learning from data G.Strang
 
 # Computer Science
 - [Think python, 2nd edition](https://greenteapress.com/wp/think-python-2e/)
@@ -24,11 +24,5 @@
 - Physics POV: [Information theory short course by a physicist - gregory falkovic](https://www.weizmann.ac.il/complex/falkovich/sites/complex.falkovich/files/uploads/Draft24.pdf)
 - Programming POV: A Student’s Guide to Coding and Information Theory - Po-Ning Chen, Stefan M. Moser 
 
-## Additional books for the curious mind
-- [Nayve Set Theory](https://www.amazon.com/Naive-Theory-Undergraduate-Texts-Mathematics/dp/0387900926)
-- Writing and Publishing Scientific Papers
-- Introduction to Markov Chain analysis" by Pierre Bremaud
-- Markov Chain Monte Carlo: Stochastic Simulation for Bayesian Inference by Mike West and Jeff Harriso
-- An Introduction to Markov Chain Analysis: Applications to Genetic Sequence Analysis by Brian R. Bullard.
-- Bayesian Thinking: Modeling and Computation by David Dunson
-- Bayesian Analysis with Python by Osvaldo Martin
+# Additional
+- Writing and Publishing Scientific Papers, Gábor L. Lövei

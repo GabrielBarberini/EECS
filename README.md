@@ -27,9 +27,8 @@
 - Check `/notes` for books, articles and personal annotations
 
 ### Practicing sciences
-* [Khan Academy (beginner)](https://www.khanacademy.org/math/)
-* [Wolfram-u (intermediary)](https://www.wolfram.com/wolfram-u/catalog/mathematics/)
-* [Brilliant.org (paid)](https://brilliant.org/)
+* [Khan Academy](https://www.khanacademy.org/math/)
+* [Brilliant.org](https://brilliant.org/)
 
 ### Practicing programming
 * [SoloLearn (beginner)](https://www.sololearn.com/learning) # Their app is particularly good for practicing while commuting
@@ -38,15 +37,14 @@
 * [Project Based Learning (advanced)](https://github.com/practical-tutorials/project-based-learning)
 
 ### Mini-courses
+* [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [An Introduction to Programming the Internet of Things (IOT)](https://www.coursera.org/specializations/iot)
 * [Introduction to cryptography](https://www.wolfram.com/wolfram-u/introduction-to-cryptography)
-* [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [Systematic program design](https://www.youtube.com/@systematicprogramdesign7962)
 
 ### Blogs
-* [Cryptography](https://asecuritysite.com/)
-* [Security](https://www.schneier.com/)
 * [Science](https://ciechanow.ski/archives/)
+* [Security](https://asecuritysite.com/)
 * [Programming](https://alexanderell.is/)
 
 ### Youtube channels
