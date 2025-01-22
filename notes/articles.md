@@ -3,6 +3,7 @@
 - [NTP protocol](https://sookocheff.com/post/time/how-does-ntp-work/)
 - [The Docker Handbook](https://www.freecodecamp.org/news/the-docker-handbook/)
 - [The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
+- [The NGINX Handbook](https://www.freecodecamp.org/news/the-nginx-handbook/)
 - [Unicode and character sets basics](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [Journey to the stack, part 1](https://manybutfinite.com/post/journey-to-the-stack/)
 - [Implementing a RPC from scratch](https://alexanderell.is/posts/rpc-from-scratch/)
