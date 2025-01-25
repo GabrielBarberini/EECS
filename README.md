@@ -13,7 +13,7 @@
 - 6-034 - [Artificial intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 - 6-042j - [Mathematics for computer science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)
 - 6-046j - [Design and analysis of algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
-- 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-internet-applications-fall-2003/)
+- 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/6-171-software-engineering-for-web-applications-fall-2003/)
 - 6-172 - [Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/)
 - 6-189 - [Multicore Programming Primer](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
@@ -40,7 +40,6 @@
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [An Introduction to Programming the Internet of Things (IOT)](https://www.coursera.org/specializations/iot)
 * [Introduction to cryptography](https://www.wolfram.com/wolfram-u/introduction-to-cryptography)
-* [Systematic program design](https://www.youtube.com/@systematicprogramdesign7962)
 
 ### Blogs
 * [Science](https://ciechanow.ski/archives/)
