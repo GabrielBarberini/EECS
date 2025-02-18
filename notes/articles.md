@@ -15,6 +15,7 @@
 - [Anatomy of a program in memory](https://manybutfinite.com/post/anatomy-of-a-program-in-memory)
 - [Anatomy of the linux filesystem](https://developer.ibm.com/tutorials/l-linux-filesystem)
 - [Network filesystems and linux](https://developer.ibm.com/tutorials/l-network-filesystems)
+- [Anatomy of Linux dynamic libraries](https://developer.ibm.com/tutorials/l-dynamic-libraries/)
 
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
