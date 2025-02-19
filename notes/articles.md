@@ -8,6 +8,7 @@
 - [Journey to the stack, part 1](https://manybutfinite.com/post/journey-to-the-stack/)
 - [Implementing a RPC from scratch](https://alexanderell.is/posts/rpc-from-scratch/)
 - [Websocket RFC](https://datatracker.ietf.org/doc/html/rfc6455)
+- [HTTP RFC](https://datatracker.ietf.org/doc/html/rfc2616)
 
 ## Linux
 - [Anatomy of the Linux kernel](https://developer.ibm.com/articles/l-linux-kernel)
