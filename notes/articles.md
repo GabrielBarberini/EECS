@@ -17,6 +17,7 @@
 - [Network filesystems and linux](https://developer.ibm.com/tutorials/l-network-filesystems)
 - [Anatomy of Linux dynamic libraries](https://developer.ibm.com/tutorials/l-dynamic-libraries/)
 - [Anatomy of real-time Linux architectures](https://ziyang.eecs.umich.edu/~dickrp/ides/papers/jones08apr.pdf)
+- [Anatomy of Linux journaling file systems](https://download.boulder.ibm.com/ibmdl/pub/software/dw/linux/l-journaling-filesystems/l-journaling-filesystems-pdf.pdf)
 
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
