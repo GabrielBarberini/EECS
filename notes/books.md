@@ -10,8 +10,11 @@
 - [Think python, 2nd edition](https://greenteapress.com/wp/think-python-2e/)
 - Introduction to Computation and Programming Using Python, Third Edition - John Guttag
 - [Think Complexity 2e: Exploring Complexity Science with Python](http://greenteapress.com/wp/think-complexity/) 
-- [Deep learning book](deeplearningbook.org)
 - Aho Compilers: Principles, Techniques, and Tools
+
+# Software Engineering
+- [OAuth and OpenId the professional guide](https://auth0.com/resources/ebooks/oauth-openid-connect-professional-guide)
+- [Whitepaper Prompt Engineering](https://www.kaggle.com/whitepaper-prompt-engineering)
 
 # Electrical Engineering
 - Basic circuit theory - Desoer
