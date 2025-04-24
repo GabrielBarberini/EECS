@@ -40,11 +40,12 @@
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
 * [An Introduction to Programming the Internet of Things (IOT)](https://www.coursera.org/specializations/iot)
 * [Introduction to cryptography](https://www.wolfram.com/wolfram-u/introduction-to-cryptography)
+* [AI for beginners](https://github.com/microsoft/AI-For-Beginners/tree/main)
 
 ### Blogs
-* [Science](https://ciechanow.ski/archives/)
-* [Security](https://asecuritysite.com/)
-* [Programming](https://alexanderell.is/)
+* [https://ciechanow.ski/archives/](https://ciechanow.ski/archives)
+* [https://asecuritysite.com/](https://asecuritysite.com)
+* [https://alexanderell.is/](https://alexanderell.is)
 
 ### Youtube channels
 #### Technology
