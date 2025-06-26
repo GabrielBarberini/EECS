@@ -23,3 +23,4 @@
 # Science & Engineering
 - [Converting decimal to IEEE 754 floating point representation](https://sandbox.mc.edu/~bennet/cs110/flt/dtof.html)
 - [A proof of the central limit theorem](https://towardsdatascience.com/a-proof-of-the-central-limit-theorem-8be40324da83)
+- [How Complex Systems Fail](https://how.complexsystems.fail/)
