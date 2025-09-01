@@ -11,6 +11,7 @@
 - [HTTP RFC](https://datatracker.ietf.org/doc/html/rfc2616)
 
 ## Linux
+- [The UNIX Operating System (video)](https://youtu.be/tc4ROCJYbm0)
 - [Anatomy of the Linux kernel](https://developer.ibm.com/articles/l-linux-kernel)
 - [Anatomy of Linux process management](https://developer.ibm.com/tutorials/l-linux-process-management)
 - [Anatomy of a program in memory](https://manybutfinite.com/post/anatomy-of-a-program-in-memory)
