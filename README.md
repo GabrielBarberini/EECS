@@ -47,6 +47,7 @@
 * [https://ciechanow.ski/archives/](https://ciechanow.ski/archives)
 * [https://asecuritysite.com/](https://asecuritysite.com)
 * [https://alexanderell.is/](https://alexanderell.is)
+* [https://lilianweng.github.io/](https://lilianweng.github.io/)
 
 ### Youtube channels
 #### Technology
