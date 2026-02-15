@@ -15,7 +15,6 @@
 - 6-042j - [Mathematics for computer science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)
 - 6-046j - [Design and analysis of algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
 - 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/6-171-software-engineering-for-web-applications-fall-2003/)
-- 6-172 - [Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/)
 - 6-189 - [Multicore Programming Primer](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
@@ -28,7 +27,7 @@
 - Check `/notes` for books, articles and personal annotations
 
 ### Practicing sciences
-* [Khan Academy](https://www.khanacademy.org/math/)
+* [Khan Academy](https://www.khanacademy.org/)
 * [Brilliant.org](https://brilliant.org/)
 
 ### Practicing programming
