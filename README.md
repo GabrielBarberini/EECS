@@ -48,6 +48,7 @@
 * [https://alexanderell.is/](https://alexanderell.is)
 * [https://lilianweng.github.io/](https://lilianweng.github.io/)
 * [https://karpathy.ai](https://karpathy.ai)
+* [https://wiki.c2.com/?SpecializationIsForInsects](https://wiki.c2.com/?SpecializationIsForInsects)
 
 ### Youtube channels
 #### Technology
