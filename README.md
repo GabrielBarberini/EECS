@@ -16,6 +16,7 @@
 - 6-046j - [Design and analysis of algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
 - 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/6-171-software-engineering-for-web-applications-fall-2003/)
 - 6-189 - [Multicore Programming Primer](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/)
+- 18-s096 - [Matrix Calculus for machine learning and beyond](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
 ### Reference degree-charts
