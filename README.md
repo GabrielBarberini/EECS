@@ -17,11 +17,12 @@
 - 6-171 - [Software Engineering for Internet Applications](https://ocw.mit.edu/courses/6-171-software-engineering-for-web-applications-fall-2003/)
 - 6-189 - [Multicore Programming Primer](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/)
 - 18-s096 - [Matrix Calculus for machine learning and beyond](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/)
+- 11-768 - [AI Agents](https://www.cmu-agents.com/)
 - [Full list of available free courses from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
 ### Reference degree-charts
 * [Computer Science and Engineering (Course 6-3)](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)
-* [Electrical Engineering and Computer Science (Course 6-2)](http://catalog.mit.edu/degree-charts/electrical-engineering-computer-science-course-6-2/)
+* [Electrical Engineering with Computing (Course 6-5)](https://catalog.mit.edu/degree-charts/electrical-engineering-computing-course-6-5/)
 * [Open Source Society University](https://github.com/ossu/computer-science)
 
 ## Useful resources
